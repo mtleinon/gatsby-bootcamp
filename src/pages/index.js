@@ -7,7 +7,7 @@ import "../styles/index.scss"
 export default () => (
   <Layout title="Home">
     <h2>Hello</h2>
-    <p>This is a test page for Gatsby</p>
+    <p>This is a test page for Gatsby version 2</p>
     <p>
       Contact page: <a href="/contact">contact me</a>.
     </p>
