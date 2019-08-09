@@ -1,0 +1,32 @@
+.link {
+  color: red;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+}
+.nav-item {
+  text-decoration: none;
+  margin-right: 1.3rem;
+  font-size: .9rem;
+  color: #eee;
+}
+.title {
+  color: #eee;
+  font-size: 3rem;
+  text-decoration: none;
+}
+
+.header {
+  padding: 3rem 0 1rem 1rem;
+  background-color: #333;
+}
+
+.nav-item:hover {
+  color: #666;
+}
+.activeNavItem {
+  color: #333;
+}
