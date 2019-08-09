@@ -13,15 +13,14 @@ module.exports = {
 
   /* Your site config here */
   // "develop": "SET GATSBY_GRAPHQL_IDE=playground&gatsby develop",
-  // CONTENTFUL_SPACE_ID=590wuj3hb1ir
-  // CONTENTFUL_ACCESS_TOKEN=oiBvJezGlR_FqK8ZsG5MzVAd9CGpK0LDH7PbPUDjkZ8
+
   plugins: [
     "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-source-contentful",
       options: {
-        spaceId: secrets.spaceId,
-        accessToken: secrets.accessToken,
+        spaceId: process.env.CONTENTFUL_SPACE_ID,
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
       },
     },
     `gatsby-plugin-sass`,
