@@ -3,7 +3,7 @@
  *
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
-const secrets = require("./.secrets.js")
+// const secrets = require("./.secrets.js")
 
 module.exports = {
   siteMetadata: {
